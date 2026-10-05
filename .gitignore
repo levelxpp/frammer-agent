@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+*.egg-info/
+dist/
+build/
+
+*.sqlite3
+
+# Node
+node_modules/
+.next/
+npm-debug.log
+yarn-debug.log
+
+# OS
+.DS_Store
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# Cache
+.cache/
+.pytest_cache/
+__pycache__
+
+# Runtime-generated data (written by the running app / Docker volumes)
+data/registry.db
+data/analytics_dashboard.json
+data/saved_analytics/
+data/merged/
+data/chroma/
+data/models/
+data/chart_data/
+
+# Frontend runtime data
+frontend-main/.next/
+frontend-main/node_modules/
